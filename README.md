@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# ♻️ REM Waste Skip Selector (Redesign)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a modern, responsive redesign of the “Choose Your Skip Size” page for [REM Skip hire](https://remskiphire.com/skip-hire-rem), built with **Vite**, **React**, **Tailwind CSS**, and **DaisyUI**.
 
-## Available Scripts
+It uses the [WeWantWaste.co.uk](https://wewantwaste.co.uk) API to fetch the yard skips list.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🔄 **Fully responsive** design (mobile-first)
+- ♻️ **Real-time skip data** via API
+- ✅ **Skip selection** with single-select logic
+- 🖱️ **Interactive UI** with hover/focus states
+- 🌈 Styled with **TailwindCSS** and **DaisyUI**
+- ⚙️ Clean component structure with React
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Explaining my approach
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🔄 **Fully responsive** design (mobile-first)
+- ♻️ **Real-time skip data** via API
+- ✅ **Skip selection** with single-select logic
+- 🖱️ **Interactive UI** with hover/focus states
+- 🌈 Styled with **TailwindCSS** and **DaisyUI**
+- ⚙️ Clean component structure with React
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📸 Preview
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> ![screenshot](./preview.png)  
+*Modern card UI layout with skip info and selection*
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🔗 Live Demo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- > [👉 Click here to view the demo](https://your-demo-link.vercel.app) -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📦 Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **React 19**
+- **Vite 6**
+- **Axios** – for fetching skip data
+- **Tailwind CSS** – utility-first CSS framework
+- **DaisyUI** – component styling on top of Tailwind
+- **React Icons** – for beautiful iconography
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🛠 Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone git@github.com:SharonnElfride/rem-waste-skip-selector.git
+# OR
+git clone https://github.com/SharonnElfride/rem-waste-skip-selector.git
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Next steps
+cd rem-waste-skip-selector
+npm install
+npm run dev
