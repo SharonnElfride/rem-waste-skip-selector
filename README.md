@@ -9,29 +9,18 @@ It uses the [WeWantWaste.co.uk](https://wewantwaste.co.uk) API to fetch the yard
 ## 🚀 Features
 
 - 🔄 **Fully responsive** design (mobile-first)
-- ♻️ **Real-time skip data** via API
+- ♻️ **Real-time data** via API
 - ✅ **Skip selection** with single-select logic
 - 🖱️ **Interactive UI** with hover/focus states
 - 🌈 Styled with **TailwindCSS** and **DaisyUI**
-- ⚙️ Clean component structure with React
-
----
-
-## 🚀 Explaining my approach
-
-- 🔄 **Fully responsive** design (mobile-first)
-- ♻️ **Real-time skip data** via API
-- ✅ **Skip selection** with single-select logic
-- 🖱️ **Interactive UI** with hover/focus states
-- 🌈 Styled with **TailwindCSS** and **DaisyUI**
-- ⚙️ Clean component structure with React
+- ⚙️ Clean component structure with Vite / React Js
 
 ---
 
 ## 📸 Preview
 
-> ![screenshot](./preview.png)  
-*Modern card UI layout with skip info and selection*
+> ![screenshot](./preview.png)
+*Modern card UI layout with yard skip data and selection*
 
 ---
 
@@ -48,7 +37,7 @@ It uses the [WeWantWaste.co.uk](https://wewantwaste.co.uk) API to fetch the yard
 - **Axios** – for fetching skip data
 - **Tailwind CSS** – utility-first CSS framework
 - **DaisyUI** – component styling on top of Tailwind
-- **React Icons** – for beautiful iconography
+- **React Icons** – for beautiful iconography (I only used Lucide icons)
 
 ---
 
